@@ -1,0 +1,134 @@
+#logbutton{
+                cursor: pointer;
+                text-align: center;
+                padding: 10px;
+                width: 50%;
+                height: 50px ;
+                background-color: gold;
+                font-size: 18px;
+                border-radius: 4px;
+                transition-duration: 0.4s;
+                
+            }
+            #logbutton:hover{
+                box-shadow: 0 12px 16px 0 rgba(19, 18, 18, 0.24),0 17px 50px 0 rgba(12, 12, 12, 0.19);
+            }
+                 input[type=text], input[type=password],input[type=email],input[type=date] 
+                 {
+                width: 50%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 50px solid #490404;
+			     border-radius: 15px;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: ;
+                background-image:url("images/bg.png");
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+        
+            #divmain{
+                background:rgba(240, 239, 239, 0.586);
+                //align-content: center;  
+                //padding-left: 20%;
+                margin-left: 27%;
+                margin-right:25%;
+                margin-top:50px;
+				
+            }
+            form{
+                color:rgba(26, 25, 25, 1);
+                //padding-top: 50px;
+                padding-left: 200px;
+                padding-bottom: 100px;
+            }
+            
+             @font-face {
+                    font-family:myfontbold;
+                    src: url("font/SamsungSans-Regular.ttf");
+            }
+            @font-face{
+            font-family: myfontthin;
+                    src: url("font/SamsungSharpSansRegular-Regular.ttf");
+            }
+             @font-face {
+                    font-family:myfont;
+                    src: url("font/samsung_s_sharp_by_629lyric-d8y77l9.ttf");
+                }
+            #symbolmain{
+                font-family:myfont;
+                font-size: 50px ;
+                color: #490404;
+                padding-top:200px;
+			padding-left: 10px;	
+            }
+            #symbol{
+                font-family:myfont;
+                font-size: 30px ;
+                color: #490404;
+                padding-left:20%;
+                padding-top: 200px;
+            }
+            #symbolsub{
+                font-family:myfont;
+                font-size: 15px ;
+                color: #490404;
+                padding-left:55px;
+                line-height: 0;
+
+            }
+            hr{
+                width:500px;
+            }
+            img
+            {
+                padding-left : 10px;
+                padding-top : 10px;
+                width: 50px;
+                height:50px;
+            }
+            form{
+                font-family: myfontbold;
+     
+
+
+            }
+            
+             a {
+                font-family: myfontbold;
+                font-size: 18px;
+                text-decoration: none;
+                color : black;
+			  margin: 40px;
+            }
+             a:hover{
+                font-family: myfontbold;
+                font-size: 19px;
+                text-decoration: none;
+                color : darkblue;
+            }
+            .callout-danger p{
+                padding: 5px;
+                text-align: center;
+                background-color:red;
+                color:white;
+                align-self: center; 
+                width: 40%;
+            }
+            .callout-success p{
+                padding: 5px;
+                text-align: center;
+                background-color:green;
+                color:white;
+                align-self: center; 
+                width: 40%;
+            }
+#logo
+{
+	width:15%;
+	height:7%;
+	margin:0px
+}
